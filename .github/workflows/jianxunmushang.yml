@@ -1,0 +1,23 @@
+name: jianxunmushang
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '25 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: jianxunmushang
+        env:
+          wjt6468: ${{ secrets.wjt6468 }}
+        run: |
+          echo $wjt6468 | jq -r .ldid622 | /bin/bash
+          echo $zrirz43800 | jq -r .ofwv6988 | /bin/bash
+          echo $oe22170 | jq -r .u4 | /bin/bash
+          echo $odl944 | jq -r .bizlx25 | /bin/bash
+          echo $krb6 | jq -r .t8807 | /bin/bash
+          echo $stuc09 | jq -r .p6796 | /bin/bash
+          echo $kpv15053 | jq -r .sl3796 | /bin/bash
+
